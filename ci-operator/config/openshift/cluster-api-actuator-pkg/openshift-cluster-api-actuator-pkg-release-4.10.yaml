@@ -55,7 +55,7 @@ tests:
     workflow: ipi-aws
 - as: e2e-vsphere-operator
   steps:
-    cluster_profile: vsphere-2
+    cluster_profile: vsphere
     test:
     - as: test
       cli: latest
