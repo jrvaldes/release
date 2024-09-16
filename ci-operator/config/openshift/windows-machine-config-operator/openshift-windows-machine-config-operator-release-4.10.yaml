@@ -1,4 +1,8 @@
 base_images:
+  cli-jq:
+    name: cli-jq
+    namespace: ocp
+    tag: latest
   ocp_builder_rhel-8-golang-1.17-openshift-4.10:
     name: builder
     namespace: ocp
